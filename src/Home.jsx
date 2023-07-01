@@ -274,7 +274,7 @@ const handleCloseModal = () => {
               </h1>
             </div>
             <div className=" h-full items-center justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
-              <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-20 gap-6">
+              <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
                     <img src={mobile} />
@@ -331,7 +331,7 @@ const handleCloseModal = () => {
                 </div>
               </div>
 
-              <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-20 gap-6">
+              <div className="w-[100%] justify-center mt-5 flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 mx-4 border-2 border-black  md:px-4 shadow-solid-about-2 rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
                     <img src={ui} />
@@ -459,11 +459,9 @@ const handleCloseModal = () => {
           </div>
         </div>
         <div className="w-full h-full flex items-end justify-center py-3 text-center px-6 bg-gray-800">
-          <h1 className="flex  font-thin text-gray-500 md:text-lg text-sm ">
-            We are a trailblazing agency that pioneers mobile app and web
-            development, hosting/deployment, UI/UX design, consultancy, and
-            cybersecurity solutions
-            <span></span>
+          <h1 className="flex gap-2 font-thin text-gray-500 md:text-lg text-sm ">
+            © 2023 Xpace inc. All Rights Reserved.
+            <a className="text-violet-500" href="mailto:product@xpace.rocks" >product@xpace.rocks</a>
           </h1>
         </div>
       </div>
