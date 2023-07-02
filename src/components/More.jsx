@@ -37,7 +37,7 @@ useCountUp({
               </h1>
             </div>
           </div>
-          <div className="md:col-span-6 col-span-12 md:w-3/4 h-full flex items-center text-[#1F2541] md:mb-0 mb-4 justify-center md:pr-0">
+          <div className="md:col-span-6 hidden col-span-12 md:flex md:w-3/4 h-full items-center text-[#1F2541] md:mb-0 mb-4 justify-center md:pr-0">
             <p>
               <span className="text-yellow-900">Xpace</span>, is a dynamic
               agency specializing in mobile app and web development,
