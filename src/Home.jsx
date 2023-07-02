@@ -259,21 +259,21 @@ const handleCloseModal = () => {
           <div className="max-w-[1200px] w-full mx-auto my-10">
             <div className="w-full font-outfit md:mt-10 border-r-green-800 md:border-r-green-800 md:border-t-0 md:border-l-0 md:border-b-0 md:border-r-4 pr-5 md:ml-0 ml-6">
               <h1 className="md:text-7xl md:text-end text-3xl md:pb-3">
-                Hello there{" "}
+                Our services{" "}
               </h1>
-              <h2 className="md:text-3xl md:text-end pr-2 text-lg text-black pb-4">
+              {/* <h2 className="md:text-3xl md:text-end pr-2 text-lg text-black pb-4">
                 What we offer{"  "}
                 <span className="text-gray-400 pr-6" id="span-xlistics">
                   @Xpace
                 </span>{" "}
-              </h2>
+              </h2> */}
             </div>
             <div className="w-full ">
               <h1 className="hidden md:flex font-extralight md:text-3xl text-start text-xl text-pink-500">
                 Our Arsenal of Digital Marvels;{" "}
               </h1>
             </div>
-            <div className=" h-full items-center justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
+            <div className=" h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
               <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
